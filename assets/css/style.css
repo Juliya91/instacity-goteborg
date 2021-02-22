@@ -59,6 +59,51 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    background: #000046; 
+    background: -webkit-linear-gradient(to right, #01013f, #3494E6); 
+    background: linear-gradient(to right, #01013f, #3494E6); 
+    min-height: 120px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.7em;
+}
+
+.booking-links {
+   text-decoration: none;
+   color: #3494E6;
+   font-family: inherit;
+   font-weight: 300;
+   padding-top: 1em; 
+   font-size: 18px;
+}
+
+.btn-signup {
+    background-color: rgba(238, 196, 10, 0.9);
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 1em;
+}
+
+.social-links {
+    padding-top: 3em;
+}
+
+.social-links li a i {
+    height: 35px;
+    width: 35px;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.copyright {
+    font-size: 19px;
 }
 
 
@@ -76,4 +121,5 @@ footer {
         font-size: 21px;
         padding-top: 20px;
     }
+
 }
