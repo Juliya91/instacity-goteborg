@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
     <title>Instacity of Go:teborg</title>
@@ -13,8 +13,8 @@
     <header>
         <!--Navbar Section - taken from Bootsrtap 4.5 (https://getbootstrap.com/docs/4.5/components/navs/) from Nav & Navbar sections and edited-->
 
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-            <a href="index.html" class="navbar-brand logo"> <i class="fas fa-mountain"></i> InstaCity of Go:teborg</a>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a href="index.html" class="navbar-brand logo"> <i class="fa fa-area-chart" aria-hidden="true"></i> InstaCity of Go:teborg</a>
             
             <!--Collapse menu insipered by Whiskey Drop lesson and edited slightly-->
 
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarNavMenu">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item pages">
-                        <a class="nav-link active current" href="index.html">Home</a>
+                        <a class="nav-link active nav-left" href="index.html">Home</a>
                     </li>
                     <li class="nav-item pages">
                         <a class="nav-link active" href="#">Summer</a>
@@ -34,7 +34,7 @@
                         <a class="nav-link active" href="#">Winter</a>
                     </li>
                     <li class="nav-item pages">
-                        <a class="nav-link active" href="#">Sign Up!</a>
+                        <a class="nav-link active nav-right" href="#">Sign Up!</a>
                     </li>
                 </ul>
             </div>
@@ -48,8 +48,63 @@
 
     </section>
     <footer class="container-fluid ">
-        
-        
+        <div class="row">
+            <div class="col-sm-4">
+                <h6>
+                    We've teamed up with Tripadvisor & Booking.com to give you the best offers!
+                </h6>
+                <ul class="list-unstyled booking-links">
+                        <li>
+                            <a target="_blank" href="https://www.tripadvisor.co.uk/Tourism-g189894-Gothenburg_Vastra_Gotaland_County_West_Coast-Vacations.html">
+                                 Tripadvisor
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.booking.com/searchresults.en-gb.html?aid=375654;label=msn-7%2Ah3G5%2A7Zoz42nmjXchaog-80745420794175%3Atikwd-80745436851625%3Aloc-188%3Aneo%3Amte%3Adec%3Aqsbooking.com;sid=9e7a63b5df01dea3716ad0e0004db445;dest_id=-2482986;dest_type=city;srpvid=7d1586bbd66f01b4;ss=Gothenburg&">
+                                Booking.com
+                            </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h6>Sign Up with us to get tailored vouchers for experiencing your stay without worries!</h6>
+                 
+                <!--Sign Up button taken from Bootstrap 4.5 button section and edited slightly-->
+                <a class="btn btn-warning" href="#" role="button">Sign Up!</a>
+            </div>
+            <div class="col-sm-4">
+                <h5>See more on Socials!</h5>
+                 <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/goteborgcom">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.pinterest.co.uk/abigail7048/gothenburg/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/gothenburg_sweden/">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.bing.com/videos/search?q=gothenburg+youtube&qpvt=gothenburg+youtube&FORM=VDRE">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="row">
+                <h6>&copy; Copyright 2021 Juliya91</h6>
+            </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
