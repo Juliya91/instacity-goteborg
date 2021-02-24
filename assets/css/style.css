@@ -52,6 +52,19 @@ padding-top: 12px;
     border-bottom-right-radius:30px;
 }
 
+/*------------Hero image for home & sign up pages*/
+
+div.hero-image {
+    width: 100%;
+    height: 280px;
+    background: url("../images/got-hero.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 /*--------------Footer-----------*/
 
 /*---Footer position code taken from - stackoverflow (https://stackoverflow.com/questions/51160979/how-to-make-footer-stay-on-the-bottom-of-the-page-bootstrap-4)---*/
