@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Risque&display=swap');
 
+body {
+    font-family: "Raleway", sans-serif;
+    
+}
 
 /*---------------Heading---------*/
 
@@ -65,12 +69,49 @@ div.hero-image {
     padding: 0;
 }
 
+/*---------Welcome section*/
+
+.welcome-part {
+    text-align: center;
+}
+
+.home-headings h2 {
+    color: rgba(219, 181, 9, 0.9);
+    text-shadow: -1px 1px 0 #222522;
+}
+
+.home-headings h3 {
+    color: #222522;
+    text-shadow: -1px 1px 0 rgba(238, 196, 10, 1);
+}
+
+hr {
+    color: rgba(238, 196, 10, 0.9);
+    width: 12em;
+    line-height: 1em;
+}
+
+
+/*----------Middle section*/
+
+.summer-image {
+    width: 150px;
+    height: 335px;
+    background: url("../images/got-summer.jpg");
+    background-repeat: no-repeat;
+}
+
+.winter-image {
+    width: 150px;
+    height: 400px;
+    background: url("../images/got-winter.jpg");
+    background-repeat: no-repeat;
+}
+
 /*--------------Footer-----------*/
 
 /*---Footer position code taken from - stackoverflow (https://stackoverflow.com/questions/51160979/how-to-make-footer-stay-on-the-bottom-of-the-page-bootstrap-4)---*/
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     background: #000046; 
     background: -webkit-linear-gradient(to right, #01013f, #3494E6); 
