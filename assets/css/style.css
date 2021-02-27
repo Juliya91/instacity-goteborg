@@ -2,7 +2,6 @@
 
 body {
     font-family: "Raleway", sans-serif;
-    
 }
 
 /*---------------Heading---------*/
@@ -69,44 +68,56 @@ div.hero-image {
     padding: 0;
 }
 
-/*---------Welcome section*/
+/*---------Welcome Part----*/
 
 .welcome-part {
+    text-align: center;
+}
+
+/*--------Main Part - text-shadow code taken from codesdope (https://www.codesdope.com/blog/article/create-multi-colored-text-outline-using-css/) */
+
+.main-part {
     text-align: center;
 }
 
 .home-headings h2 {
     color: rgba(219, 181, 9, 0.9);
     text-shadow: -1px 1px 0 #222522;
+    margin-top: 0.5em;
 }
 
 .home-headings h3 {
     color: #222522;
     text-shadow: -1px 1px 0 rgba(238, 196, 10, 1);
+    margin-top: 0.5em;
 }
 
 hr {
-    color: rgba(238, 196, 10, 0.9);
-    width: 12em;
-    line-height: 1em;
+    background-color: rgba(219, 181, 9, 0.7);
+    width: 10em;
+    height: 0.2em;
+    border: 0;
 }
-
-
-/*----------Middle section*/
 
 .summer-image {
-    width: 150px;
-    height: 335px;
     background: url("../images/got-summer.jpg");
-    background-repeat: no-repeat;
 }
 
-.winter-image {
-    width: 150px;
-    height: 400px;
+.winter-image { 
     background: url("../images/got-winter.jpg");
-    background-repeat: no-repeat;
 }
+
+.summer-image,
+.winter-image {
+    border-radius: 30px;
+    width: 100px;
+    height: 335px;
+    background-repeat: no-repeat;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+} 
 
 /*--------------Footer-----------*/
 
@@ -174,6 +185,17 @@ footer {
         width: 100px;
         font-size: 21px;
         padding-top: 20px;
+    }
+    .home-headings h3{
+        margin-top: 2em;
+    }
+    .summer-image,
+    .winter-image{
+       width: 150px;
+       margin-top: 2.2em;
+       margin-bottom: 2em;
+       margin-right: 0;
+       margin-left: 0; 
     }
 
 }
