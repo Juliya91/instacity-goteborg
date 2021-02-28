@@ -80,13 +80,13 @@ div.hero-image {
     text-align: center;
 }
 
-.home-headings h2 {
+.headings h2 {
     color: rgba(219, 181, 9, 0.9);
     text-shadow: -1px 1px 0 #222522;
     margin-top: 0.5em;
 }
 
-.home-headings h3 {
+.headings h3, h4 {
     color: #222522;
     text-shadow: -1px 1px 0 rgba(238, 196, 10, 1);
     margin-top: 0.5em;
