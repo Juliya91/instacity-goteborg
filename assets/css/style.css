@@ -83,7 +83,7 @@ div.hero-image {
 .headings h2 {
     color: rgba(219, 181, 9, 0.9);
     text-shadow: -1px 1px 0 #222522;
-    margin-top: 0.5em;
+    margin-top: 1em;
 }
 
 .headings h3, h4 {
@@ -119,6 +119,25 @@ hr {
     margin-left: 0.2em;
 } 
 
+/*------------Buttons of summer & winter pages---*/
+.text-center{
+    margin: 0.5em;
+}
+
+#todo {
+    margin-left: 1em;
+}
+
+/*------------Images for summer & winter pages---*/
+
+ img {
+    border-radius: 30px;
+    width: 330px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin: 0.5em;
+}
+
 /*--------------Footer-----------*/
 
 /*---Footer position code taken from - stackoverflow (https://stackoverflow.com/questions/51160979/how-to-make-footer-stay-on-the-bottom-of-the-page-bootstrap-4)---*/
@@ -151,8 +170,8 @@ footer {
     color: #fff;
     font-family: inherit;
     font-weight: 500;
-    font-size: 18px;
-    margin-top: 1em;
+    font-size: 15px;
+    margin-top: 0.3em;
 }
 
 .socials {
@@ -171,6 +190,15 @@ footer {
     font-size: 19px;
 }
 
+@media only screen and (min-width: 768px) {
+    .text-center{
+    margin: 1em 2em 2em 2em;
+}
+   img {
+        width: 200px; 
+        height: 200px;
+   }
+}
 
 @media only screen and (min-width: 1025px) {
     .logo {
@@ -186,7 +214,7 @@ footer {
         font-size: 21px;
         padding-top: 20px;
     }
-    .home-headings h3{
+    .home-headings h2, h3{
         margin-top: 2em;
     }
     .summer-image,
@@ -197,5 +225,12 @@ footer {
        margin-right: 0;
        margin-left: 0; 
     }
-
+    img {
+        width: 300px;
+    }
+    .btn-signup {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 1em;
+    }
 }
