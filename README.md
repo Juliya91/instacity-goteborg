@@ -57,3 +57,29 @@ This website is targeting all demographics who enjoys nature and looking for uni
 - I want the website's content to be regularly updated, so I can check to see if there are any new posts/pictures or locations added to summer/ winter pages.
 - I want to sign up to the Newsletter so that I can be kept informed via email about offers or any new updates.
 
+## Scope
+
+## Structure
+
+I decided to separate the website into four pages- the home page, summer page, winter page and sign up page.  
+
+## Skeleton
+
+---
+
+## Surface
+
+I wanted to use simple layout with rounded shapes to buttons, navbar elements & images and colours of Gothenburg.
+
+
+### Images
+- Imagery is important, especially for image-based website. The hero image at the top of the home page is designed to be striking and catch the user's attention inviting to transition to the next pages.
+In the meantime, the "summer" and "winter" pages mostly consist of images.
+
+-   ### Design
+    -   #### Colour Scheme
+        - Main colors of the website are - blue, yellow and white. This colourscheme is consistant throughout all pages and is matching coat of arms of Gothenburg.
+    -   #### Typography
+        -   The Risque font used for big headings. While Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't loading. 
+        Major Mono Display is easy to read and eyecatching font for the headings. Raleway is nicely spaced out and have thicknest that is perfectly matches the main headings font.
+   
