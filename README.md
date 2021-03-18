@@ -59,11 +59,25 @@ This website is targeting all demographics who enjoys nature and looking for uni
 
 ## Scope
 
+- I have chosen simple features which align with content of my website: as its focus is on images and less text, giving users an easy way to learn about the sights and activities of Gothenburg. 
+- While I have a limited description of things to do and see, I have provided direct links for more information. The intention behind this was to avoid overloading users with information and allows them to decide if they want to learn more about particular places or attractions.
+- I have used mixed content of images, text and links.
+
 ## Structure
 
-I decided to separate the website into four pages- the home page, summer page, winter page and sign up page.  
+I decided to separate the website into four pages: the home page, summer page, winter page and sign up page (where the summer and winter pages are image-based).
 
 ## Skeleton
+
+The website doesn't exactly match my original wireframes, i.e. the hero image on home and sign up pages is below navbar, navbar is with rounded shape on the right and left. I then decided to add buttons to summer and winter pages which lead to the sections on those pages.
+
+- Home Page: <a href="assets/wireframes/HomePageWireframe.pdf" target="_blank" >Home</a>
+
+- Summer Page: <a href="assets/wireframes/SummerWireframe.pdf" target="_blank" >Summer</a>
+
+- Winter Page: <a href="assets/wireframes/WinterWireframe.pdf" target="_blank" >Winter</a>
+
+- Sign Up Page: <a href="assets/wireframes/SignUpWireframe.pdf" target="_blank" >Sign Up</a> 
 
 ---
 
