@@ -26,22 +26,22 @@ nav a .logo {
 }
 
 .pages {
-height: 40px;
-width: 80px;
-text-align: center;
-padding: 0;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    padding: 0;
 }
 
 .pages .active {
-height: 40px;
-width: 100%;
-text-decoration: none;
-background-color: rgba(238, 196, 10, 0.9);
-color: #fff;
-font-family: "Risque", sans-serif;
-font-weight: 500;
-font-size: 12px;
-padding-top: 12px;
+    height: 40px;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgba(238, 196, 10, 0.9);
+    color: #fff;
+    font-family: "Risque", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 12px;
 }
 
 /*nav-left & nav-right taken from stackoverflow (https://stackoverflow.com/questions/26078771/rounded-corners-for-navbar)*/
