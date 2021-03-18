@@ -13,7 +13,7 @@ header {
 /*Nav - background color code taken from (https://hexcolorspicker.com/tools/materialui/uigradients/uigradients/index.html#ViceCity) and edited slightly*/
 
 nav {
-background: #000046; 
+    background: #000046; 
     background: -webkit-linear-gradient(to right, #01013f, #3494E6); 
     background: linear-gradient(to right, #01013f, #3494E6); 
     min-height: 80px;
@@ -128,9 +128,7 @@ hr {
     margin-left: 1em;
 }
 
-.winter-buttons {
-    margin-left: 10em;
-}
+
 
 /*------------Images for summer & winter pages---*/
 
