@@ -11,6 +11,7 @@ Through considering this, I am ensuring that the website created will be optimis
 > - [Ux](#ux)
 > - [User Stories](#user-stories)
 > - [Features](#features)
+> - [Technologies Used](#technologies-used)
 
 
 ## Overview
@@ -133,4 +134,31 @@ In the meantime, the "summer" and "winter" pages mostly consist of images.
 - Functionality of the sign up form, which will learned in future modules.
 - Voucher code pop up once form is submited
 ---
-   
+## Technologies Used
+
+#### Languages:
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+#### Libraries:
+- [Bootstrap 4.2/4.5](https://getbootstrap.com/) - A mobile-first responsive library used to construct various parts of the website, including the Navbar, Sign Up Form, Grid System and Buttons.
+- [GoogleFonts](https://fonts.google.com/) - Raleway and Risque fonts
+- [FontAwesome](https://fontawesome.com/) - Used for icons used for header, footer and in the description of summer & winter pages next to the links
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=EAIaIQobChMIn-_lgbiJ7QIVn4BQBh1X3Av6EAAYASAAEgL1XfD_BwE) - used for creating the wireframes
+
+#### Version Control:
+- [Github](https://github.com/) - Used to store the code and to deploy the website. 
+- [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub.
+
+#### Other:
+- [Code Institute Course Content](https://courses.codeinstitute.net/) - Main learning base as well as inspiration for curtain features.
+- [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to check layout, responsivness and any malfunctions.
+- [W3Schools](https://www.w3schools.com/) - used for CSS coding tips.
+- [StackOverFlow](https://stackoverflow.com/) - used as a general resource for both styling and HTML tips.
+- [HTML.am](https://www.computerhope.com/issues/ch000049.htm) - Used for tip on how to link buttons to the sections.
+
+
+---
+### Acknowledgements
+- My Mentor **Nishant Kumar** for his assistance and guidance on the sessions, especially helping me with navbar position on mobile version.
+ 
