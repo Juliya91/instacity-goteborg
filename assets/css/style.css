@@ -11,7 +11,8 @@ header {
 }
 
 /*Nav - background color code taken from (https://hexcolorspicker.com/tools/materialui/uigradients/uigradients/index.html#ViceCity) and edited slightly*/
-
+     
+ /*Display and Flex-direction declarations have been given by my mentor Nishant Kumar*/
  .mob-menu {
     display: flex;
     flex-direction: row;

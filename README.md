@@ -10,6 +10,7 @@ Through considering this, I am ensuring that the website created will be optimis
 > - [Description](#description)
 > - [Ux](#ux)
 > - [User Stories](#user-stories)
+> - [Features](#features)
 
 
 ## Overview
@@ -83,7 +84,7 @@ The website doesn't exactly match my original wireframes, i.e. the hero image on
 
 ## Surface
 
-I wanted to use simple layout with rounded shapes to buttons, navbar elements & images and colours of Gothenburg.
+I wanted to use simple layout with rounded shapes to buttons, navbar elements & images; and as well colours of Gothenburg.
 
 
 ### Images
@@ -94,6 +95,42 @@ In the meantime, the "summer" and "winter" pages mostly consist of images.
     -   #### Colour Scheme
         - Main colors of the website are - blue, yellow and white. This colourscheme is consistant throughout all pages and is matching coat of arms of Gothenburg.
     -   #### Typography
-        -   The Risque font used for big headings. While Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't loading. 
-        Major Mono Display is easy to read and eyecatching font for the headings. Raleway is nicely spaced out and have thicknest that is perfectly matches the main headings font.
+        -   The Risque font used for header elements. While Raleway font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't loading. 
+        Raleway is easy to read and eyecatching font for the navbar logo and navbar. Raleway is nicely spaced out and has shape that is perfectly matches the main headings font.
+    -   #### Icons
+        - Font Awesome was used for icons and they are psent on all pages: part of logo, next to links to summer & winter pages in the description on the home page and social links.
+
+## Features
+
+#### Navbar
+- The navbar's background has been designed with a gradient-style fade. 
+- Nav elements have rounded shapes - Home button is rounded on the left and Sign Up on the right. All of the nav elements are joined together.
+- By creating a fixed-top navbar, I wanted the user to be able to easily navigate and move to the other page from wherever they are on it.
+- On a mobile, the navbar is then collapsed to show the toggler which expands when clicked to display the nav elements in as a row - matching desktop and tablet versions.
+
+#### Home
+- Logo can be clicked on any page and it will take the user to home one.
+- Contains the hero image of a night view showing a beautiful part of Gothenburg, perfectly syncing with the header colour scheme.
+- For the headings a text-shadow declaration have been used.
+- hr element in yellow is present underneath the article heading to emphasise it.
+- Grid system used to create 4 columns: 2 of which are Summer and Winter pages description and links with icons to those; While the other 2 are images of summer and winter view of Gothenburg.
+
+#### Summer and Winter
+- Headings have are consitent with text-shadow declaration and hr element underneath the main heading like on home page.
+- Buttons are below article (following the rounded shape of nav elements) leading to each section on the pages.
+- Each section consist of images, description and links where user can learn more about chosen place or attraction.
+
+#### Sign Up 
+- Contains most of features from home page as well as form that needs to be filled out in order to get the voucher for booking anything on Tripadvisor or Booking.com 
+
+#### Footer
+- The same gradient-style fade has been aplied
+- Contains links to partners
+- Sign Up button (following the rounded shape of nav elements) can be clicked for user to go straight to sign up page
+- Social media icons link to the pages/ videos about Gothenburg
+
+### Features Left to Implement
+- Functionality of the sign up form, which will learned in future modules.
+- Voucher code pop up once form is submited
+---
    
