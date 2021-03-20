@@ -2,8 +2,12 @@
 
 ## Code Institute - Milestone Project 1
 
+ ### View the live project [here.](https://juliya91.github.io/instacity-goteborg/signup.html)
+
 - The purpose of Instacity of Go:teborg is to introduce potential visitors to the hidden gems, scenic locations and exciting activities that can be experienced within Gothenburg; providing links to allow users to transition to other existing webpages where they can action their interests.  
 Through considering this, I am ensuring that the website created will be optimised to meet the needs and wants of my target audience - encouraging repeat visitors.
+
+![am-i-responsive](https://user-images.githubusercontent.com/75125486/111888176-0da53380-89d2-11eb-9003-e475125ebe6a.jpg)
 
 ## Table of Contents
 > - [Overview](#overview)
