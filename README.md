@@ -12,6 +12,11 @@ Through considering this, I am ensuring that the website created will be optimis
 > - [User Stories](#user-stories)
 > - [Features](#features)
 > - [Technologies Used](#technologies-used)
+> - [Testing](#testing)
+> - [Project bugs and solutions](#Project-bugs-and-solutions)
+> - [Deployment](#deployment)
+> - [Credits](#credits)
+> - [Acknowledgments](#Acknowledgements)
 
 
 ## Overview
@@ -156,12 +161,23 @@ In the meantime, the "summer" and "winter" pages mostly consist of images.
 - [W3Schools](https://www.w3schools.com/) - used for CSS coding tips.
 - [StackOverFlow](https://stackoverflow.com/) - used as a general resource for both styling and HTML tips.
 - [HTML.am](https://www.computerhope.com/issues/ch000049.htm) - Used for tip on how to link buttons to the sections.
+- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
+- 
 
 ## Testing
 
-- Form testing: to check sign up form functionality, I tested it on different devices and browsers. For that I clicked the send button on the Sign Up page without any text in inputs to see that it showed the desired response of 'Please fill out this field'.
-- Links (Internal & External):  
-- Ensured the website was also responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit)
+- Form testing: to check sign up form functionality, I tested it on different devices and browsers. For that I clicked the send button on the Sign Up page without any text in inputs to see it showing the desired response of 'Please fill out this field'.
+- Links (Internal & External): internal links - when clicking on brand & logo it is leading user to home page from any page; links on Home page in the description of Summer & Winter pages are leading to the right page; buttons on Summer & Winter pages are leading to the right section. External links - used in the footer and under each image are leading user to the right website and for better UX I used traget:_blank, so it opens it in the new tab.
+- Checked the website was mobile responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit)
+
+- **Home**
+![home-mob-responsive](https://user-images.githubusercontent.com/75125486/111887121-d8e1ae00-89ca-11eb-962b-b526a8257cc3.jpg)
+- **Summer**
+![summer-mob-responsive](https://user-images.githubusercontent.com/75125486/111887126-dc753500-89ca-11eb-9ab7-d256e32f732d.jpg)
+- **Winter**
+![winter-mob-responsive](https://user-images.githubusercontent.com/75125486/111887129-df702580-89ca-11eb-9063-da3bc3079256.jpg)
+- **Sign Up**
+![signup-mob-responsive](https://user-images.githubusercontent.com/75125486/111887130-e26b1600-89ca-11eb-8c61-6ec020ddb0e7.jpg)
 
 #### Validation
 
@@ -174,9 +190,19 @@ HTML - [W3C](https://validator.w3.org/) - Markup Validation
 - Changed section to div on sumemer.html & winter.html and it had no warnings after that; index.html & signup.html had no issues at all.
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
-
 ![css-validation](https://user-images.githubusercontent.com/75125486/111880491-dddf3700-89a3-11eb-9f86-3a7725ac94b6.jpg)
 
+#### Bugs and Solutions
+
+#### Testing User Stories
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
 ---
 ### Acknowledgements
 - My Mentor **Nishant Kumar** for his assistance and guidance on the sessions, especially helping me with navbar position on mobile version.
