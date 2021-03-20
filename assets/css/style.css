@@ -4,7 +4,7 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-/*---------------Heading---------*/
+/*---------------Header---------*/
 
 header {
     margin: 0;
@@ -65,7 +65,57 @@ nav a .logo {
     border-bottom-right-radius:30px;
 }
 
+/*--------------Footer-----------*/
 
+/*---Footer position code taken from - stackoverflow (https://stackoverflow.com/questions/51160979/how-to-make-footer-stay-on-the-bottom-of-the-page-bootstrap-4)---*/
+footer {
+    width: 100%;
+    background: #000046; 
+    background: -webkit-linear-gradient(to right, #01013f, #3494E6); 
+    background: linear-gradient(to right, #01013f, #3494E6); 
+    min-height: 120px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 0.7em;
+}
+
+.booking-links {
+   text-decoration: none;
+   color: #3494E6;
+   font-family: inherit;
+   font-weight: 300;
+   padding-top: 1em; 
+   font-size: 18px;
+}
+
+.btn-signup {
+    background-color: rgba(238, 196, 10, 0.9);
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 2em;
+}
+
+.socials {
+    padding-top: 3em;
+}
+
+.socials li a i {
+    height: 35px;
+    width: 35px;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.copyright {
+    font-size: 19px;
+}
 
 /*------------Hero image for home & sign up pages*/
 
@@ -84,17 +134,21 @@ div.hero-image {
 
 article {
     padding-top: 5em;
-    padding-bottom: 5em;
+    padding-bottom: 1em;
 }
 
 .welcome-part {
     text-align: center;
 }
 
-/*--------Main Part - text-shadow code taken from codesdope (https://www.codesdope.com/blog/article/create-multi-colored-text-outline-using-css/) */
+/*--------Main Part  for Home page- text-shadow code taken from codesdope (https://www.codesdope.com/blog/article/create-multi-colored-text-outline-using-css/) */
 
 .main-part {
     text-align: center;
+}
+
+.col-md-3 {
+    max-width: 24%;
 }
 
 .headings h2 {
@@ -163,58 +217,6 @@ hr {
     
 }
 
-/*--------------Footer-----------*/
-
-/*---Footer position code taken from - stackoverflow (https://stackoverflow.com/questions/51160979/how-to-make-footer-stay-on-the-bottom-of-the-page-bootstrap-4)---*/
-footer {
-    width: 100%;
-    background: #000046; 
-    background: -webkit-linear-gradient(to right, #01013f, #3494E6); 
-    background: linear-gradient(to right, #01013f, #3494E6); 
-    min-height: 120px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    padding-top: 0.7em;
-}
-
-.booking-links {
-   text-decoration: none;
-   color: #3494E6;
-   font-family: inherit;
-   font-weight: 300;
-   padding-top: 1em; 
-   font-size: 18px;
-}
-
-.btn-signup {
-    background-color: rgba(238, 196, 10, 0.9);
-    border-radius: 30px;
-    text-decoration: none;
-    color: #fff;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 12px;
-    margin: 2em;
-}
-
-.socials {
-    padding-top: 3em;
-}
-
-.socials li a i {
-    height: 35px;
-    width: 35px;
-    font-size: 35px;
-    text-align: center;
-    color: #fff;
-}
-
-.copyright {
-    font-size: 19px;
-}
-
 /*----------------Sign Up Form and submit button---*/
 
 .centered-form {
@@ -231,6 +233,8 @@ form {
     border-color: rgba(238, 196, 10, 0.9);
     border-radius: 20px;
 }
+
+/*----------------Media Quaries---*/
 
 @media only screen and (min-width: 768px) {
 
@@ -277,12 +281,6 @@ form {
         padding-top: 3em;
         padding-bottom: 3em;
     }
-
-    .centered-form {
-        min-height: 16em;
-        margin: 0 auto;
-        max-width: 40%;
-    }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -317,5 +315,11 @@ form {
         font-weight: 500;
         font-size: 18px;
         margin-top: 1em;
+    }
+
+    .centered-form {
+        min-height: 16em;
+        margin: 0 auto;
+        max-width: 40%;
     }
 }
