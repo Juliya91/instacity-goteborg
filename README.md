@@ -166,7 +166,7 @@ In the meantime, the "summer" and "winter" pages mostly consist of images.
 - [StackOverFlow](https://stackoverflow.com/) - used as a general resource for both styling and HTML tips.
 - [HTML.am](https://www.computerhope.com/issues/ch000049.htm) - Used for tip on how to link buttons to the sections.
 - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
-- 
+- [AmIResponsive](http://ami.responsivedesign.is/) - Used to see how the layout of the website looks across different devices- found at the top of this [README](https://github.com/Juliya91/instacity-goteborg/blob/master/README.md). 
 
 ## Testing
 
@@ -201,6 +201,13 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 #### Testing User Stories
 
 ## Deployment
+
+- Once I had set up my account Github, I created a new repository by clicking + next to my profile avatar and choosing "New repository". To create this project and all follow along projects, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Once added a Gitpod extention to a browser, on GitHub repository click on the green "Gitpod" button which will redirect to [Gitpod](https://gitpod.io/)
+- Gitpod, an IDE used to write all the code and this README file for this project.
+- After every significant change and edition to the project it was saved, commited and pushed to Github where it is stored in a [repository](https://github.com/Juliya91/instacity-goteborg)
+- Under "Settings", I scrolled down to Github Pages and selected "Master Branch".
+- Once this was selected, the project was pushed to Github pages and the URL is then displayed. That URL gets updated automatically each time I made a change on Gitpod and pushed it to GitHub.
 
 ## Credits
 
