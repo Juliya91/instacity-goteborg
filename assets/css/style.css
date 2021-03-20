@@ -118,10 +118,12 @@ hr {
 
 .summer-image {
     background: url("../images/got-summer.jpg");
+    margin-right: 0.5em;
 }
 
 .winter-image { 
     background: url("../images/got-winter.jpg");
+    margin-left: 0.5em;
 }
 
 .summer-image,
@@ -213,6 +215,23 @@ footer {
     font-size: 19px;
 }
 
+/*----------------Sign Up Form and submit button---*/
+
+.centered-form {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+form {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.form-group input {
+    border-color: rgba(238, 196, 10, 0.9);
+    border-radius: 20px;
+}
+
 @media only screen and (min-width: 768px) {
 
     .pages {
@@ -226,6 +245,26 @@ footer {
         padding-top: 20px;
     }
 
+    .main-part {
+        margin-right: 0.05em;
+        margin-left: 0.05em;
+    }
+
+    .summer-image {
+        margin-right: 0.1em;
+    }
+
+    .winter-image {
+        margin-left: 0.1em;
+    }
+
+    .summer-image,
+    .winter-image{
+       width: 100px;
+       margin-top: 2.2em;
+       margin-bottom: 2em; 
+    }
+    
     .text-center{
     margin: 1em 2em 2em 2em;
 }
@@ -233,6 +272,17 @@ footer {
         width: 200px; 
         height: 200px;
    }
+
+   form {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .centered-form {
+        min-height: 16em;
+        margin: 0 auto;
+        max-width: 40%;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -251,14 +301,6 @@ footer {
     }
     .home-headings h2, h3{
         margin-top: 2em;
-    }
-    .summer-image,
-    .winter-image{
-       width: 150px;
-       margin-top: 2.2em;
-       margin-bottom: 2em;
-       margin-right: 0;
-       margin-left: 0; 
     }
 
     #todo,
