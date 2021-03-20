@@ -157,7 +157,25 @@ In the meantime, the "summer" and "winter" pages mostly consist of images.
 - [StackOverFlow](https://stackoverflow.com/) - used as a general resource for both styling and HTML tips.
 - [HTML.am](https://www.computerhope.com/issues/ch000049.htm) - Used for tip on how to link buttons to the sections.
 
+## Testing
 
+- Form testing: to check sign up form functionality, I tested it on different devices and browsers. For that I clicked the send button on the Sign Up page without any text in inputs to see that it showed the desired response of 'Please fill out this field'.
+- Links (Internal & External):  
+- Ensured the website was also responsive on all pages through [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly?utm_source=gws&utm_medium=onebox&utm_campaign=suit)
+
+#### Validation
+
+HTML - [W3C](https://validator.w3.org/) - Markup Validation
+
+![html-summer-validate-er](https://user-images.githubusercontent.com/75125486/111881956-d8d1b600-89aa-11eb-9b75-d6ee1465be6d.jpg)
+- On summer.html showed warning as buttons were wrapped in the section and no heading present
+
+![html-validatation](https://user-images.githubusercontent.com/75125486/111881959-dcfdd380-89aa-11eb-9db9-a8f634ee6de4.jpg)
+- Changed section to div on sumemer.html & winter.html and it had no warnings after that; index.html & signup.html had no issues at all.
+
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
+![css-validation](https://user-images.githubusercontent.com/75125486/111880491-dddf3700-89a3-11eb-9f86-3a7725ac94b6.jpg)
 
 ---
 ### Acknowledgements
