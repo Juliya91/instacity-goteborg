@@ -17,10 +17,11 @@ Through considering this, I am ensuring that the website created will be optimis
 > - [Features](#features)
 > - [Technologies Used](#technologies-used)
 > - [Testing](#testing)
-> - [Project bugs and solutions](#Project-bugs-and-solutions)
+> - [Project bugs and solutions](#bugs-and-solutions)
+> - [Testing User Stories](#testing-user-stories)
 > - [Deployment](#deployment)
 > - [Credits](#credits)
-> - [Acknowledgments](#Acknowledgements)
+> - [Acknowledgments](#acknowledgements)
 
 
 ## Overview
@@ -58,9 +59,8 @@ This website is targeting all demographics who enjoys nature and looking for uni
 #### As a Returning User: 
 
 - I want to find more information about the city of Gothenburg.
-- I want to find out the cost for the places I wish to visit in Gothenburg.
 - I want to easily find links to where I can book tickets for activities and events in Gothenburg.
-- I want to find out about hot spots and pictureque places within the city.
+- I want to find out about hot spots and picturesque places within the city.
 
 #### As a Frequent User: 
 
@@ -143,6 +143,7 @@ In the meantime, the "summer" and "winter" pages mostly consist of images.
 - Functionality of the sign up form, which will learned in future modules.
 - Voucher code pop up once form is submited
 ---
+
 ## Technologies Used
 
 #### Languages:
@@ -198,11 +199,53 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
 #### Bugs and Solutions
 
+- Navbar menu was displaying vertically on mobile once clicked on navbar toggler, which didn't look presentable, I added display: flex; and flex-direction: row; to navbar toggler as recommended by Nishant Kumar to display menu horizontally on mobile.
+- Buttons on winter page were not centered as I put "col-4", but I changed from 3 buttons to 2. To solve that I changed it to "col-6" so it spreads out and centers.
+- Images winter & summer pages were not displaying on deployed link as pointed out by my Mentor Nishant Kumar I had a mistake in img path (/assets/images/winter/got-haga-w.jpg). To rectify that I removed "/" before assets.
+- Images on winter & summer pages on mobile version were not aligning, part of right side was covered as a result part of toggler was covered too. To solve this issue I used relative mesarument for the width of images on those pages (changed to 100% width).
+- On sign up page on mobile version choice of interest checkboxes were partly covered, which caused toggler to not be visible. I decided to have checkboxes displaying vertically on mobile version instead of horizontally like on desktop version. To achieve this a changed "d-flex" to "d-md-flex" in the "div" that wrappes the checkboxes and heading for choise of interest.
+
 #### Testing User Stories
+
+#### As a First Time User:
+
+**"I want to easily understand the main purpose of the site."**
+> *The moment the user opens the website they can see the brand and logo - Instacity Go:teborg at the top and hero image of the city below the header, which immediately indicates the purpose of the website.
+Subsquently, scrolling down you can find a description of what to expect and the following pages.*
+
+**"I want to be able to easily navigate throughout the site to find content."**
+> *The fixed top navbar allows the user to easily navigate and move to other pages from any point on the website.*
+
+**"I want the content to be user-friendly with engaging visual design."**
+> *Main colours for the header and footer of blue, yellow and white creates a visually pleasing design, paying homage to Gothenburg's coat of arms colours. 
+The rest of the content on the otherhand, has a minimalistic aesthetic, with concise, catchy text, a few links and mostly images, which are easy to follow and are engaging.*
+
+
+#### As a Returning User:
+
+**"I want to find more information about the city of Gothenburg."**
+> *The home page has a small general description of Gothenburg at the top and below the user can find out about Summer and Winter in the city. 
+Once advancing to these respective pages - the images and descriptions correlating to each season, gives the user an understanding what to expect when visit Gothenburg in those times of the year.*
+
+**"I want to easily find links to where I can book tickets for activities and events in Gothenburg."**
+> *Links are present under each image for more information about the place or activity and in the footer user can find links to our partners Tripadvisor and Booking.com.*
+
+**"I want to find out about hot spots and picturesque places within the city."**
+> *Summer and winter pages images and descriptions shows beautiful places in Gothenburg and nearby.*
+
+
+#### As a Frequent User:
+
+**"I want the content to remain consistent."**,
+**"I want the website's content to be regularly updated, so I can check to see if there are any new posts/pictures or locations added to summer/ winter pages."**
+> *Weren't able to test these two as the website is newly built. However, in the future I would like to update the website by adding more places to visit in Gothenburg and perhaps new features.
+
+**"I want to sign up to the Newsletter so that I can be kept informed via email about offers or any new updates."**
+> *Sign up form with choices of interest (accessible via ticking) is present on the sign up page, which states that by signing up the user can receive a voucher and tailored offers.*
 
 ## Deployment
 
-- Once I had set up my account Github, I created a new repository by clicking + next to my profile avatar and choosing "New repository". To create this project and all follow along projects, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Once I had set up my account Github, I created a new repository by clicking "+" next to my profile avatar and choosing "New repository". To create this project and all follow along projects, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
 - Once added a Gitpod extention to a browser, on GitHub repository click on the green "Gitpod" button which will redirect to [Gitpod](https://gitpod.io/)
 - Gitpod, an IDE used to write all the code and this README file for this project.
 - After every significant change and edition to the project it was saved, commited and pushed to Github where it is stored in a [repository](https://github.com/Juliya91/instacity-goteborg)
