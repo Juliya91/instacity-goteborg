@@ -78,7 +78,8 @@ footer {
     font-weight: 400;
     color: #fff;
     text-align: center;
-    padding-top: 0.7em;
+    padding-top: 25px;
+    padding-bottom: 35px;
 }
 
 .booking-links {
@@ -90,15 +91,19 @@ footer {
    font-size: 18px;
 }
 
-.btn-signup {
+.btn-signup, 
+.btn-sum-win {
     background-color: rgba(238, 196, 10, 0.9);
-    border-radius: 30px;
     text-decoration: none;
     color: #fff;
     font-family: inherit;
     font-weight: 700;
     font-size: 12px;
-    margin: 2em;
+}
+
+.btn-signup {
+    border-radius: 30px;
+    margin-bottom: 2em;
 }
 
 .socials {
@@ -166,6 +171,8 @@ hr {
     border: 0;
 }
 
+/*---------------Home Page summer and winter view images---*/
+
 .summer-image {
     background: url("../images/got-summer.jpg");
     margin-right: 0.5em;
@@ -193,6 +200,12 @@ hr {
     margin: 0.5em;
 }
 
+.btn-sum-win {
+    border-radius: 100%;
+    width: 85px;
+    padding: 11px;
+}
+
 #todo,
 #tosee,
 #todosee,
@@ -210,7 +223,7 @@ hr {
     height: 200px;
     background-repeat: no-repeat;
     margin: 0.05em;
-    
+    padding: 10px;
 }
 
 /*----------------Sign Up Form and submit button---*/
@@ -245,6 +258,18 @@ form {
         padding-top: 20px;
     }
 
+    .btn-signup,
+    .btn-sum-win {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 1em;
+    }
+
+    .btn-sum-win {
+        border-radius: 30px;
+        width: 130px;
+    }
+
     .main-part {
         margin-right: 0.05em;
         margin-left: 0.05em;
@@ -267,10 +292,16 @@ form {
     
     .text-center{
     margin: 1em 2em 2em 2em;
-}
+    }
+
+    h5 {
+        padding-top: 10px;
+    }
+
    img {
-        width: 200px; 
+        width: 230px; 
         height: 200px;
+        padding: 2px;
    }
 
    form {
@@ -305,12 +336,7 @@ form {
 }
 
     img {
-        width: 300px;
-    }
-    .btn-signup {
-        font-weight: 500;
-        font-size: 18px;
-        margin-top: 1em;
+        width: 280px;
     }
 
     .centered-form {

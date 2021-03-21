@@ -82,13 +82,13 @@ I decided to separate the website into four pages: the home page, summer page, w
 
 The website doesn't exactly match my original wireframes, i.e. the hero image on home and sign up pages is below navbar, navbar is with rounded shape on the right and left. I then decided to add buttons to summer and winter pages which lead to the sections on those pages.
 
-- Home Page: <a href="assets/wireframes/HomePageWireframe.pdf" target="_blank" >Home</a>
+- Home Page: <a href="assets/wireframes/home-wireframe.pdf" target="_blank" >Home</a>
 
-- Summer Page: <a href="assets/wireframes/SummerWireframe.pdf" target="_blank" >Summer</a>
+- Summer Page: <a href="assets/wireframes/summer-wireframe.pdf" target="_blank" >Summer</a>
 
-- Winter Page: <a href="assets/wireframes/WinterWireframe.pdf" target="_blank" >Winter</a>
+- Winter Page: <a href="assets/wireframes/winter-wireframe.pdf" target="_blank" >Winter</a>
 
-- Sign Up Page: <a href="assets/wireframes/SignUpWireframe.pdf" target="_blank" >Sign Up</a> 
+- Sign Up Page: <a href="assets/wireframes/sign-up-wireframe.pdf" target="_blank" >Sign Up</a> 
 
 ---
 
@@ -199,9 +199,9 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
 #### Bugs and Solutions
 
-- Navbar menu was displaying vertically on mobile once clicked on navbar toggler, which didn't look presentable, I added display: flex; and flex-direction: row; to navbar toggler as recommended by Nishant Kumar to display menu horizontally on mobile.
+- Navbar menu was displaying vertically on mobile once clicked on navbar toggler, which didn't look presentable, I added display: flex; and flex-direction: row; to navbar toggler to display menu horizontally on mobile.
 - Buttons on winter page were not centered as I put "col-4", but I changed from 3 buttons to 2. To solve that I changed it to "col-6" so it spreads out and centers.
-- Images winter & summer pages were not displaying on deployed link as pointed out by my Mentor Nishant Kumar I had a mistake in img path (/assets/images/winter/got-haga-w.jpg). To rectify that I removed "/" before assets.
+- Images winter & summer pages were not displaying on deployed link, I had a mistake in img path (/assets/images/winter/got-haga-w.jpg). To rectify that I removed "/" before assets.
 - Images on winter & summer pages on mobile version were not aligning, part of right side was covered as a result part of toggler was covered too. To solve this issue I used relative mesarument for the width of images on those pages (changed to 100% width).
 - On sign up page on mobile version choice of interest checkboxes were partly covered, which caused toggler to not be visible. I decided to have checkboxes displaying vertically on mobile version instead of horizontally like on desktop version. To achieve this a changed "d-flex" to "d-md-flex" in the "div" that wrappes the checkboxes and heading for choise of interest.
 
