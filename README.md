@@ -213,7 +213,15 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 
 ### Content
 
+- Parts of text for welcome part of Home and Summer pages was coppied from [Go:teborg](https://www.goteborg.com/en/), as well as for description of Summer & Winter pages on the Home Page. Aditionally for To Do, To See and Do & See Nearby Sections of Summer page and majority of To Do & See and Do & See Nearby Sections of Winter Page.
+- Parts of text coppied from [Christmas at Liseberg](https://www.liseberg.com/christmas-at-liseberg) for description of Christmas in Liseberg on Winter page.
+- Parts of text coppied from [Heden](https://www.cityseeker.com) for Ice Scating place description on Winter Page.
+- Parts of text coppied from [J2Ski](https://www.j2ski.com) for Mullsjö Ski Resort description.
+- Parts of text coppied from [Stunning Journey](https://stunningjourney.com/things-to-do-in-malmo-in-winter/) and [The Culture Trip](https://theculturetrip.com/europe/sweden/articles/the-10-most-impressive-buildings-in-malmo/) for description of architecture in Malmo.
+
 ### Media
+
+- The photos for this project were taken from Shutterstock, Pixabay and Bing images.
 ---
 ### Acknowledgements
 - My Mentor **Nishant Kumar** for his assistance and guidance on the sessions, especially helping me with navbar position on mobile version.
